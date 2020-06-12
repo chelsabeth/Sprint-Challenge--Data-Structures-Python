@@ -2,7 +2,7 @@
 
 The sprint challenge rubric was updated after I forked it, here is the new rubric: https://github.com/LambdaSchool/Sprint-Challenge--Data-Structures-Python
 
-`note`: I did not fork this before I was given permission, the readme was changed `after` 8am PST Friday 
+`note`: I did not fork this before I was given permission, the readme was changed `after` 8am PST Friday. Thank you! 
 
 # Sprint Challenge: Data Structures
 
