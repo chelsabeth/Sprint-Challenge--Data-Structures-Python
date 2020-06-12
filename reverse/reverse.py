@@ -48,6 +48,8 @@ class LinkedList:
             current = next 
         self.head = prev 
 
+# NOTE: runtime is O(n)
+
 # TODO:
 # 1. initialize three pointers - prev as null, current as head, and next as null
 # 2. iterate through the linked list with a while loop:
