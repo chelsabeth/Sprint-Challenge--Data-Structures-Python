@@ -11,9 +11,9 @@ names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
 # NOTE: 
-# this takes about 3 seconds, O(n)
+# this takes about 3 seconds, runtime of O(n)
 # I'm iterating over 2 lists, a condition, and adding a name to the list
-# so the complexity is O(n) where n is the the size of shortest list
+# so the runtime is O(n) where n is the the size of shortest list
 
 duplicates = [name_1 for name_1 in names_1 for name_2 in names_2 if name_1 == name_2]  # Return the list of duplicates in this data structure
 # name_1 for name_1 in names_1 for name_2 in names_2 if name_1 == name_2
