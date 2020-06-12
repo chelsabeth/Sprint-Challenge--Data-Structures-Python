@@ -11,13 +11,19 @@ f = open('names_2.txt', 'r')
 names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
-duplicates = []  # Return the list of duplicates in this data structure
+# this takes about 3 seconds, O(n)
+# I'm iterating over 2 lists, a condition, and adding a name to the list
+# so the complexity is O(n) where n is the the size of shortest list
+
+duplicates = [name_1 for name_1 in names_1 for name_2 in names_2 if name_1 == name_2]  # Return the list of duplicates in this data structure
+# name_1 for name_1 in names_1 for name_2 in names_2 if name_1 == name_2
 
 # Replace the nested for loops below with your improvements
-for name_1 in names_1:
-    for name_2 in names_2:
-        if name_1 == name_2:
-            duplicates.append(name_1)
+# this takes close to 10 seconds or more on my machine 
+# for name_1 in names_1:
+#     for name_2 in names_2:
+#         if name_1 == name_2:
+#             duplicates.append(name_1)
 
 end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
