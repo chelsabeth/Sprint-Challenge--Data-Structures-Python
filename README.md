@@ -1,6 +1,6 @@
 ## Important note: 
 
-The sprint challenge rubric was updated before I forked it, here is the new rubric: https://github.com/LambdaSchool/Sprint-Challenge--Data-Structures-Python
+The sprint challenge rubric was updated after I forked it, here is the new rubric: https://github.com/LambdaSchool/Sprint-Challenge--Data-Structures-Python
 
 # Sprint Challenge: Data Structures
 
